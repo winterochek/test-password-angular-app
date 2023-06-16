@@ -9,5 +9,8 @@ footer {
     a {
         color: $blue;
         cursor: pointer;
+        &:visited {
+            color: $blue;
+        }
     }
 }
