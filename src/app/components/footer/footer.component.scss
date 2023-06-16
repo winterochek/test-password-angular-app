@@ -5,4 +5,9 @@ footer {
     color: $white;
     padding: 1rem 2rem;
     line-height: 1;
+
+    a {
+        color: $blue;
+        cursor: pointer;
+    }
 }
