@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StatusbarComponent } from './components/statusbar/statusbar.component';
+import { CopyButtonComponent } from './components/copy-button/copy-button.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { StatusbarComponent } from './components/statusbar/statusbar.component';
     HeaderComponent,
     FooterComponent,
     StatusbarComponent,
+    CopyButtonComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

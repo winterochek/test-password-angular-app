@@ -1,0 +1,32 @@
+@import '/src/app/styles/variables.scss';
+
+:host {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: $blue;
+    color: $white;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-size: 10px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover:not(:disabled) {
+        transform: translateY(2px);
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background: $dark-gray;
+    }
+}

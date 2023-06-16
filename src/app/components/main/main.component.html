@@ -4,7 +4,12 @@
       type="password"
       formControlName="password"
       (input)="evaluatePassword()"
+      #pass
     />
+    <app-copy-button
+      [pass]="pass.value"
+      [disabled]="complexity !== 'strong'"
+    ></app-copy-button>
   </div>
   <app-status-bar [complexity]="complexity"></app-status-bar>
 </form>

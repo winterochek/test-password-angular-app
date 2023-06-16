@@ -14,6 +14,7 @@ form {
     margin: 50px auto;
 
     .input-container {
+        position: relative;
         background: $light-gray;
         border-radius: 12px;
 
@@ -34,5 +35,11 @@ form {
             outline-width: 2px;
             font-size: 30px;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 80%;
     }
 }
