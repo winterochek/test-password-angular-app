@@ -1,0 +1,23 @@
+<div
+  class="strength-section"
+  [ngClass]="{
+    red: complexity === 'invalid' || complexity === 'easy',
+    yellow: complexity === 'medium',
+    green: complexity === 'strong'
+  }"
+></div>
+<div
+  class="strength-section"
+  [ngClass]="{
+    red: complexity === 'invalid',
+    yellow: complexity === 'medium',
+    green: complexity === 'strong'
+  }"
+></div>
+<div
+  class="strength-section"
+  [ngClass]="{
+    green: complexity === 'strong',
+    red: complexity === 'invalid'
+  }"
+></div>

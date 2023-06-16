@@ -1,0 +1,35 @@
+@import '/src/app/styles/variables.scss';
+
+:host {
+    display: block;
+    max-width: 30%;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.strength-section {
+    border-radius: 8px;
+    height: 12px;
+    background: $light-gray;
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.red {
+    background-color: $red;
+    transition: all 0.2s ease-in-out;
+}
+
+.yellow {
+    background-color: $yellow;
+    transition: all 0.2s ease-in-out;
+}
+
+.green {
+    background-color: $green;
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,10 @@
+<form [formGroup]="passwordForm">
+  <div class="input-container">
+    <input
+      type="password"
+      formControlName="password"
+      (input)="evaluatePassword()"
+    />
+  </div>
+  <app-status-bar [complexity]="complexity"></app-status-bar>
+</form>

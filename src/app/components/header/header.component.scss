@@ -1,0 +1,14 @@
+@import '/src/app/styles/variables.scss';
+
+header {
+    background: $blue;
+    height: 100px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        color: $white;
+        font-size: 32px;
+    }
+}
